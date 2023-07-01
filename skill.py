@@ -1,7 +1,7 @@
 import pandas as pd
 
 # CSV dosyasını okuma
-data = pd.read_csv('veriler.csv')
+data = pd.read_csv('data.csv')
 
 # Vardiyaları aynı olan işçileri gruplama
 grouped = data.groupby('Vardiya')
